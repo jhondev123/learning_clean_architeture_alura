@@ -1,0 +1,22 @@
+{
+    "name": "jhonattan/learning_clean_arch_alura",
+    "autoload": {
+        "psr-4": {
+            "Jhonattan\\CleanArchiteture\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jhonattan\\CleanArchiteture\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jhondev123",
+            "email": "jhonattan.curtarelli@outlook.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
+}

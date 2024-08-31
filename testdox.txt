@@ -1,0 +1,8 @@
+Cpf
+ [x] Validate cpf is incorrect with data set "Incorrect Cpf"
+ [x] Validate cpf is correct with data set "Correct Cpf"
+
+Email
+ [x] Invalid email with data set "Email Invalid"
+ [x] Valid email with data set "Email Valid"
+
