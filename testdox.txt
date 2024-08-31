@@ -1,8 +1,12 @@
-Cpf
+Cpf (Jhonattan\CleanArchiteture\Tests\Domain\Cpf)
  [x] Validate cpf is incorrect with data set "Incorrect Cpf"
  [x] Validate cpf is correct with data set "Correct Cpf"
 
-Email
+Email (Jhonattan\CleanArchiteture\Tests\Domain\Email)
  [x] Invalid email with data set "Email Invalid"
  [x] Valid email with data set "Email Valid"
+
+Phone (Jhonattan\CleanArchiteture\Tests\Domain\Phone)
+ [x] Valid phone number with data set "Correct Phone"
+ [x] Invalid phone number with data set "Incorrect Phone"
 

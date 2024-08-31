@@ -1,4 +1,5 @@
 <?php
+namespace Jhonattan\CleanArchiteture\Tests\Domain;
 
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\Attributes\DataProvider;
