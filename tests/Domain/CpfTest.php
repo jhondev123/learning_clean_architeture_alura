@@ -14,7 +14,7 @@ class CpfTest extends TestCase
     }
     public static function generateIncorrectCpf()
     {
-        return ["Incorrect Cpf" => ["1234567890"]];
+        return ["Incorrect Cpf" => ["00000000000"]];
     }
     #[DataProvider('generateIncorrectCpf')]
     public function testValidateCpfIsIncorrect(string $cpf)

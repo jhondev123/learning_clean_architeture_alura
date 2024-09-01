@@ -14,10 +14,8 @@ class PhoneTest extends TestCase
     }
     public static function correctPhone()
     {
-
         return ["Correct Phone" => ["45999338406"]];
     }
-
 
     #[DataProvider('correctPhone')]
     public function testValidPhoneNumber(string $phone)
