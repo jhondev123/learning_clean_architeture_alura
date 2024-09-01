@@ -2,7 +2,7 @@
 
 namespace Jhonattan\CleanArchiteture\Application\Factories;
 
-use Jhonattan\CleanArchiteture\Domain\Entities\Student;
+use Jhonattan\CleanArchiteture\Domain\Entities\Student\Student;
 use Jhonattan\CleanArchiteture\Domain\ValueObjects\Cpf;
 use Jhonattan\CleanArchiteture\Domain\ValueObjects\Email;
 
@@ -23,7 +23,7 @@ class StudentFactory
         $this->student->addPhone($phone);
         return $this;
     }
-    public function getStudent() : Student
+    public function getStudent(): Student
     {
         return $this->student;
     }

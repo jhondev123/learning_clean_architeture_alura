@@ -1,6 +1,6 @@
 Cpf (Jhonattan\CleanArchiteture\Tests\Domain\Cpf)
  [x] Validate cpf is incorrect with data set "Incorrect Cpf"
- [ ] Validate cpf is correct with data set "Correct Cpf"
+ [x] Validate cpf is correct with data set "Correct Cpf"
 
 Email (Jhonattan\CleanArchiteture\Tests\Domain\Email)
  [x] Invalid email with data set "Email Invalid"
@@ -9,4 +9,13 @@ Email (Jhonattan\CleanArchiteture\Tests\Domain\Email)
 Phone (Jhonattan\CleanArchiteture\Tests\Domain\Phone)
  [x] Valid phone number with data set "Correct Phone"
  [x] Invalid phone number with data set "Incorrect Phone"
+
+Student Repository (Jhonattan\CleanArchiteture\Tests\Infra\Repositories\PDO\StudentRepository)
+ [x] Search student by id with data set #0
+ [x] Search student by id with data set #1
+ [x] Search student by id with data set #2
+ [x] Search all students with data set #0
+ [x] Search all students with data set #1
+ [x] Search all students with data set #2
+ [x] E save student
 
