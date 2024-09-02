@@ -56,7 +56,6 @@ class StudentRepository implements StudentRepositoryInterface
     {
         $sql = "SELECT students.*,phones.number as phone_number FROM students
             INNER JOIN phones ON students.cpf = phones.cpf_student 
-
         ";
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute();
